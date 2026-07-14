@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="一个展示个人介绍、精选作品、能力方向和联系方式的个人网站。"
+    />
+    <meta property="og:title" content="little-hamham | 个人网站" />
+    <meta property="og:description" content="把复杂想法做成清晰、好用的东西。" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/hero-workspace.png" />
+    <title>little-hamham | 个人网站</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero" id="top">
+        <nav class="nav" aria-label="主导航">
+          <a class="brand" href="#top" aria-label="返回首页">little-hamham</a>
+          <div class="nav-links">
+            <a href="#work">作品</a>
+            <a href="#about">关于</a>
+            <a href="#contact">联系</a>
+          </div>
+        </nav>
+
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">产品 / 设计 / AI 工作流</p>
+            <h1>你好，我是 little-hamham。把复杂想法做成清晰、好用的东西。</h1>
+            <p class="lead">
+              这是一个面向个人品牌、作品展示和职业介绍的主页。它适合放你的项目、
+              方法论、履历亮点和联系方式，也可以继续扩展成博客或作品集。
+            </p>
+            <div class="actions" aria-label="主要操作">
+              <a class="primary-button" href="#work">查看作品</a>
+              <a class="secondary-button" href="https://github.com/little-hamham">联系我</a>
+            </div>
+          </div>
+
+          <aside class="profile-panel" aria-label="个人摘要">
+            <img
+              src="assets/hero-workspace.png"
+              alt="桌面上的笔记本、电脑和设计草图，呈现个人工作方式"
+            />
+            <div>
+              <p class="panel-label">当前关注</p>
+              <p class="panel-text">
+                让 AI 成为可靠的工作伙伴，而不是只会制造更多草稿的工具。
+              </p>
+            </div>
+            <div class="metrics" aria-label="能力概览">
+              <div>
+                <strong>6+</strong>
+                <span>能力方向</span>
+              </div>
+              <div>
+                <strong>3</strong>
+                <span>精选案例</span>
+              </div>
+              <div>
+                <strong>1</strong>
+                <span>长期主页</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section intro" id="about">
+        <div>
+          <p class="section-kicker">关于我</p>
+          <h2>我喜欢站在问题、体验和可执行方案的交界处。</h2>
+        </div>
+        <p>
+          这个版本使用了真实网站需要的基础结构：清晰首屏、能力标签、项目卡片、
+          时间线和联系区。你只要把姓名、简介、项目和邮箱替换成自己的内容，
+          就能作为个人主页上线。
+        </p>
+      </section>
+
+      <section class="section" aria-labelledby="strengths-title">
+        <div class="section-header">
+          <p class="section-kicker">能力</p>
+          <h2 id="strengths-title">我能帮事情从“说不清”走到“做得动”。</h2>
+        </div>
+        <div class="tag-grid">
+          <span>产品策略</span>
+          <span>AI 工作流</span>
+          <span>前端原型</span>
+          <span>数据分析</span>
+          <span>内容表达</span>
+          <span>项目推进</span>
+        </div>
+      </section>
+
+      <section class="section work" id="work" aria-labelledby="work-title">
+        <div class="section-header">
+          <p class="section-kicker">精选作品</p>
+          <h2 id="work-title">把项目讲得具体一点。</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <p>Product Design</p>
+            <h3>智能工作台</h3>
+            <span>
+              把分散的需求、资料和执行动作整理成一套清晰的协作界面，
+              让复杂项目可以被持续推进。
+            </span>
+          </article>
+          <article class="project-card">
+            <p>Research</p>
+            <h3>数据故事报告</h3>
+            <span>
+              用结构化分析和可视化叙事，把业务数据转化成可讨论、可决策的洞察。
+            </span>
+          </article>
+          <article class="project-card">
+            <p>Engineering</p>
+            <h3>自动化内容系统</h3>
+            <span>
+              搭建从素材整理、草稿生成到发布检查的轻量流程，减少重复劳动，
+              保留人的判断。
+            </span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section timeline" aria-labelledby="timeline-title">
+        <div class="section-header">
+          <p class="section-kicker">经历</p>
+          <h2 id="timeline-title">一个持续迭代的个人叙事。</h2>
+        </div>
+        <div class="timeline-list">
+          <article>
+            <time>现在</time>
+            <div>
+              <h3>独立创作与产品实验</h3>
+              <p>关注 AI 如何进入真实工作场景，做能被日常使用的小系统。</p>
+            </div>
+          </article>
+          <article>
+            <time>过去</time>
+            <div>
+              <h3>跨职能项目协作</h3>
+              <p>
+                在研究、设计、工程和内容之间做翻译，把模糊想法推进成可运行的版本。
+              </p>
+            </div>
+          </article>
+          <article>
+            <time>长期</time>
+            <div>
+              <h3>持续学习与公开输出</h3>
+              <p>记录方法、复盘判断，也把个人网站当成作品和思考的长期索引。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <p class="section-kicker">联系</p>
+        <h2>如果你想合作、交流，或者只是看看这个网站怎么继续改。</h2>
+        <a href="https://github.com/little-hamham">github.com/little-hamham</a>
+      </section>
+    </main>
+  </body>
+</html>
